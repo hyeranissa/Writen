@@ -9,7 +9,7 @@ public class AreaCalculator {
             case ShapeType.SQUARE:
                 return dimension * dimension;
             default:
-                throw new IllegalArgumentException("Unknown shape type: " + shapeType);
+                throw new IllegalArgumentException("Unknown shape finded: " + shapeType);
         }
     }
 }
